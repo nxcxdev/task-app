@@ -1,7 +1,6 @@
 import TaskCard from "./components/TaskCard";
 import TaskContainer from "./components/TaskContainer";
 import TaskForm from "./components/TaskForm";
-import styles from "./page.module.css";
 import { Task } from "./types/Task";
 
 async function getTasks(): Promise<Task[]> {

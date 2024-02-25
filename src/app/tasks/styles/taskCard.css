@@ -1,0 +1,6 @@
+.task--card {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.5rem;
+	height: max-content;
+}

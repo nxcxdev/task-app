@@ -8,9 +8,9 @@ interface Props {
 
 export default function TaskContainer(props: Props) {
 	return (
-		<section>
+		<section className="task--container">
 			{props.tasks.map((task) => (
-				<TaskCard task={task} />
+				<TaskCard task={task} key={task.id} />
 			))}
 		</section>
 	);

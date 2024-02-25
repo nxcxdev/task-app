@@ -1,13 +1,14 @@
 import { Task } from "../types/Task";
+
 interface Props {
 	task: Task;
 }
 
 export default function TaskCard(props: Props) {
 	return (
-		<article>
+		<article className="task--card" key={props.task.id}>
 			<h1>{props.task.title}</h1>
-			<p>{props.task.id}</p>
+			<hr />
 			<p>{props.task.description}</p>
 			<p>{props.task.status}</p>
 		</article>

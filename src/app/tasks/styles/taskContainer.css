@@ -1,0 +1,8 @@
+.task--container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	padding: 1rem;
+	gap: 1rem;
+	background-color: #333;
+}
